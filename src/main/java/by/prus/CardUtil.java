@@ -1,16 +1,14 @@
 package by.prus;
 
-import org.jcp.xml.dsig.internal.dom.ApacheOctetStreamData;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 
 public final class CardUtil {
 
-    public static final String[] suits = new String[]{"S", "H", "D", "C"};
-    public static final String[] cardNumbers = new String[]{"2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", "A"};
+    private static final String[] suits = new String[]{"S", "H", "D", "C"};
+    private static final String[] cardNumbers = new String[]{"2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", "A"};
 
     public static String[] getSuits() {
         return Arrays.copyOf(suits, suits.length);

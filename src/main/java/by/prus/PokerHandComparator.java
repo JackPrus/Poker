@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class PokerHandComparator implements Comparator<PokerHand> {
 
-    public static final HashMap<String, Integer> cardRating = new HashMap<>();
+    private static final HashMap<String, Integer> cardRating = new HashMap<>();
     private CardUtil cardUtil;
 
     static {
